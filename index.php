@@ -1,135 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!--
 
-Template 2082 Pure Mix
-
-http://www.tooplate.com/view/2082-pure-mix
-
--->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-
-    <!-- Site title
-   ================================================== -->
-    <title>Metallum Europe</title>
-
-    <!-- Bootstrap CSS
-   ================================================== -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-
-    <!-- Animate CSS
-   ================================================== -->
-    <link rel="stylesheet" href="css/animate.min.css">
-
-    <!-- Font Icons CSS
-   ================================================== -->
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <!-- Main CSS
-   ================================================== -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/temp.css">
-    <link rel="stylesheet" href="css/waypoint.css">
-    <!-- Google web font 
-   ================================================== -->   
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-</head>
-<body>
-<!-- Preloader section START======================== -->
-<div class="preloader">
-    <div class="sk-spinner sk-spinner-pulse"></div>
-</div>
-<!-- Preloader section END======================== -->
-
+<?php include_once 'header.php'; ?>
 
 <div class="page">
-    <!--========================================================
-                              HEADER
-    =========================================================-->
+<!--===================  HEADER  ===========-->
+<header class="">        
 
-<header class="">
- 
-        
-<!-- Navigation section
-================================================== -->
-<div class="nav-container">
-    <nav class="nav-inner transparent">
+<?php include_once 'nav.php'; ?>
 
-        <div class="navbar">
-            <div class="container">
-                <div class="row">
-
-                    <header id="ha-header" class="ha-header ha-header-color">
-                    <div class="ha-header-perspective">
-                        <div class="ha-header-front">
-
-                            <div class="brand">
-                                <a href="index.html"><span>M</span>etallum  Europe</a>
-                            </div>
-
-                            <div class="navicon">
-                                <div class="menu-container">
-
-                                    <div class="circle dark inline">
-                                        <i class="icon ion-navicon"></i>
-                                    </div>
-
-                                    <div class="list-menu">
-                                        <i class="icon ion-close-round close-iframe"></i>
-                                        <div class="intro-inner">
-                                            <ul id="nav-menu">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ha-header-bottom">
-                            <nav>
-                                <a>RAW</a>
-                                <a>Extrusion</a>
-                                <a>Flat-Rolled</a>
-                                <a>Stainless</a>
-                                <a>SHower Door</a>
-                                <a>Hardware</a>
-                            </nav>
-                        </div>
-                    </div>
-                    </header>
-                </div>
-            </div>
+<!-- =============== Slider ================ -->
+<section class="ins2">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <h1 class="navbar-brand">
+                <a href="./">Metal</a>
+                <small>
+                     Is our business
+                </small>
+            </h1>
         </div>
-
-    </nav>
-</div>
-
-
-        <section class="ins2">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <h1 class="navbar-brand">
-                        <a href="./">Metal</a>
-                        <small>
-                             Is our business
-                        </small>
-                    </h1>
-                </div>
-            </div>
-        </section>
+    </div>
+</section>
 
 </header>
 
@@ -307,7 +197,7 @@ http://www.tooplate.com/view/2082-pure-mix
                     <div class="col-lg-8 col-md-12 min-height-2 bg-image bg-image-6">
                         <div class="row">
 
-                            <div class="col-md-6 col-sm-12 center991 well9 ins3">
+                            <div class="col-md-12 col-sm-12 center991 well9 ins3">
                                 <h6>
                                     We supply plates, sheets, and coils which help designers and manufacturers create lighter, stronger, more corrosion-resistant vehicles for land, air, and sea travel as well as other products.
                                 </h6>
@@ -321,17 +211,16 @@ http://www.tooplate.com/view/2082-pure-mix
         <section class="ha-waypoint" data-animate-down="ha-header-hide ha-header-subshow" data-animate-up="ha-header-color" id="door">
             <div class="container-fluid">
                 <div class="row flex">
-                    <div class="col-xl-6 col-lg-4 col-sm-6  col-no-gutter">
+                    <div class="col-sm-6 col-no-gutter">
                         <a class="thumb" href="images/bg-9.jpg" data-gallery="1">
                             <img src="images/bg-9.jpg" alt="">
                             <span class="thumb_overlay"></span>
                         </a>
                     </div>
-                    <div class="col-xl-12 col-lg-4 col-xs-12 left-xl well10 ins-xl ins3">
+                    <div class="col-sm-6 col-xs-12 left-xl well10 ins-xl ins3 hidden-lg-down">
                         <h4>
-                            Home Hardware
+                            Shower Door
                         </h4>
-
                         <p>
                             With nearly 500 retail stores in 16 markets and <span class="text-uppercase">Fashion Brand</span> Online Shop open
                             around-the-clock in 28 countries, our stores are the core of our brand. A fresh,
@@ -339,13 +228,23 @@ http://www.tooplate.com/view/2082-pure-mix
                             store.
                         </p>
                     </div>
-                    <div class="col-xl-6 col-lg-4 col-sm-6 col-no-gutter pull-xl-right ">
+                    <div class="col-sm-6 col-no-gutter pull-xl-right ">
                         <a class="thumb" href="images/bg-10.jpg" data-gallery="1">
                             <img src="images/bg-10.jpg" alt="">
                             <span class="thumb_overlay"></span>
                         </a>
                     </div>
-
+                    <div class="col-xl-12 col-lg-4 col-xs-12 left-xl well10 ins-xl ins3 hidden-xl-up">
+                        <h4>
+                            Shower Door
+                        </h4>
+                        <p>
+                            With nearly 500 retail stores in 16 markets and <span class="text-uppercase">Fashion Brand</span> Online Shop open
+                            around-the-clock in 28 countries, our stores are the core of our brand. A fresh,
+                            stylish, inspiring experience awaits customers in each and every Fashion Brand
+                            store.
+                        </p>
+                    </div>
                     <!--<div class="col-lg-8 col-md-12">-->
                     <!--<div class="row">-->
 
@@ -360,19 +259,19 @@ http://www.tooplate.com/view/2082-pure-mix
         <section class="ha-waypoint" data-animate-down="ha-header-hide ha-header-subshow" data-animate-up="ha-header-color" id="canopy">
             <div class="container-fluid">
                 <div class="row flex">
-                    <div class="col-xl-6 col-lg-4 col-sm-6 col-no-gutter">
+                    <div class="col-sm-6 col-no-gutter">
                         <a class="thumb" href="images/bg-11.jpg" data-gallery="1">
                             <img src="images/bg-11.jpg" alt="">
                             <span class="thumb_overlay"></span>
                         </a>
                     </div>
-                    <div class="col-xl-6 col-lg-4 col-sm-6 col-no-gutter">
+                    <div class="col-sm-6 col-no-gutter">
                         <a class="thumb" href="images/bg-12.jpg" data-gallery="1">
                             <img src="images/bg-12.jpg" alt="">
                             <span class="thumb_overlay"></span>
                         </a>
                     </div>
-                    <div class="ins3 well10 col-lg-4 col-xs-12 col-xl-12 left-xl">
+                    <div class="ins3 well10 col-sm-6 col-xs-12 left-xl">
                         <h4>
                             Canopy
                         </h4>
@@ -401,19 +300,17 @@ http://www.tooplate.com/view/2082-pure-mix
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <ul class="list">
                         <li class="active">
-                           <a href="index.html">Home</a>
+                           <a href="index.php">Home</a>
                         </li>
                         <li>
-                           <a href="index-1.html">About</a>
+                           <a href="about.php">About</a>
                         </li>
                         <li>
-                           <a href="index-2.html">Gallery</a>
+                           <a href="prodouct.php">Products</a>
                         </li>
+                  
                         <li>
-                           <a href="index-3.html">News</a>
-                        </li>
-                        <li>
-                           <a href="index-4.html">Contacts</a>
+                           <a href="contact.php">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -485,18 +382,7 @@ http://www.tooplate.com/view/2082-pure-mix
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
  
 <!-- </script> -->
-
- 
-
- 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/imagesloaded.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/waypoint.js"></script>
+<?php include_once 'js.php'; ?>
 <script>
     var $head = $( '#ha-header' );
     $( '.ha-waypoint' ).each( function(i) {

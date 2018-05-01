@@ -1,14 +1,43 @@
 .flex {
+	display: -ms-flex;
+	display: -webkit-flex;
 	display: flex;
-	align-items: center
+}
+.flex > div {
+	flex-grow: 1
+}
+.flex .ins3 * {
+	color: #fff;
+}
+.flex .ins3 {
+	padding: 5em
 }
 .brand a span {
-	color: #ffb500;
+	color: #fdd700;
     font-weight: 800;
     padding: 1px 3px 1px 9px;
     border: 4px solid #fdd700;
 }
-
+.portfolio-item h2 {
+	font-size: 14px;
+	color: #fff;
+}
+#canopy .left-xl {
+	background:  #F1A13A;
+	color: #fff
+}
+#door .left-xl {
+	background: #D5868C
+}
+#steel .left-xl {
+	background: #e8e8e8;
+}
+#steel .flex .ins3 * {
+	color: #333;
+}
+#billet {
+	font-size: 20px
+}
 .title h1 {
 	text-align: center;
 	padding: 5em 1em;

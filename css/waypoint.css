@@ -54,7 +54,7 @@
 }
 
 .ha-header-perspective .ha-header-bottom {
-	background: rgba(221,221,221,.7);
+	background: rgba(21,21,21,.7);
 	-webkit-transform-origin: 50% 0%;
 	-moz-transform-origin: 50% 0%;
 	transform-origin: 50% 0%;
@@ -142,7 +142,10 @@
     outline: none;
     text-decoration: none;
 }
-
+#ha-header nav a {
+	color: #fff;
+	font-weight: lighter;
+}
 .ha-header nav a:hover {
 	color: #bc3c2f;
 }
